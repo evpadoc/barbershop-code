@@ -1,0 +1,187 @@
+.main-header {
+	margin-bottom: 60px;
+}
+
+.clearfix {
+	content:"";
+
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.main-navigation {
+	width: 780px;
+	float: left;
+	min-height: 70px;
+}
+
+.user-block {
+	width: 140px;
+	float: right;
+	min-height: 70px;
+}
+
+/*style for logo*/
+
+.index-logo {
+	width: 368px;
+	height: 204px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+/*style for container-main*/
+
+.features {
+	margin-bottom: 80px;
+}
+
+.features-item {
+	min-height: 175px;
+	width: 300px;
+	margin-right: 20px; 
+	float: left;
+}
+
+.features-item:last-child {
+	margin-right: 0;
+}
+
+.index-content {
+	padding: 50px 80px;
+	margin-bottom: 35px;
+}
+
+.index-content-left {
+	min-height: 330px;
+	width: 380px;
+	float: left;
+}
+
+.index-content-right {
+	min-height: 330px;
+	width: 300px;
+	float: right;
+}
+
+/*style for footer*/
+
+.main-footer {
+	margin-top: 65px; 
+	padding-top: 60px; 
+	padding-bottom: 40px;
+}
+
+.footer-contacts {
+	min-height: 90px;
+	width: 320px;
+	float: left;
+	margin-right: 60px; 
+}
+
+.footer-social {
+	min-height: 90px;
+	width: 180px;
+	float: left;
+}
+
+.footer-copyright {
+	min-height: 90px;
+	width: 180px;
+	float: right;
+}
+
+/*style for item*/
+
+.item-title {
+	min-height: 100px;
+	margin-bottom: 20px;
+}
+
+.item-image {
+	min-height: 720px;
+	width:460px;
+	float: left;
+	margin-right: 80px;
+}
+
+.item-description {
+	min-height: 695px;
+	width:400px;
+	float: right;
+	padding-top: 25px;
+}
+
+.list-content {
+	padding-left: 20px;
+}
+
+/*style for price*/
+
+.price-title {
+	min-height: 70px;
+	margin-bottom: 60px;
+}
+
+.classics {
+	min-height: 40px;
+	width: 600;
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center; 
+	margin-bottom: 70px; 
+}
+
+.price-content-left {
+	min-height: 430px;
+	width: 380px;
+	float: left;
+	margin-right: 100px;
+}
+
+.price-content-right {
+	min-height: 430px;
+	width: 460px;
+	float: left;
+}
+
+/*style for shop*/
+
+.shop-title {
+	min-height: 70px;
+	margin-bottom: 60px;
+}
+
+.shop-catalog_form {
+	min-height: 600px;
+	width: 170px;
+	float: left;
+	margin-right: 70px; 
+}
+
+.content-item {
+	min-height: 290px;
+	width: 220px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.content-item:nth-of-type(3n) {
+	margin-right: 0;
+}
+
+.content-item:nth-of-type(n+3) {
+	margin-bottom: 0;
+}
+
+.shop-page {
+	display: inline;
+}
